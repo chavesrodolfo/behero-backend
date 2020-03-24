@@ -1,0 +1,22 @@
+{
+  "name": "behero",
+  "version": "1.0.0",
+  "description": "Be Hero!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chavesrodolfo/beHero.git"
+  },
+  "author": "chavesrodolfo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chavesrodolfo/beHero/issues"
+  },
+  "homepage": "https://github.com/chavesrodolfo/beHero#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
