@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "6538c075-e012-4fbe-bd13-4bb9edc525f4",
+		"name": "beHero",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/ongs",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Instituto AMA\",\n\t\"email\": \"institutoamama@gmail.com\",\n\t\"whatsapp\": \"041999234433\",\n\t\"city\": \"Curitiba\",\n\t\"uf\": \"PR\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/ongs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ongs"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
