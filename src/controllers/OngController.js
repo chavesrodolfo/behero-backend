@@ -14,13 +14,16 @@ module.exports = {
 
         const id = crypto.randomBytes(4).toString('HEX');
 
+        const created_at = new Date();
+
         await connection('ongs').insert({
             id,
             name,
             email,
             whatsapp,
             city,
-            uf
+            uf,
+            created_at
         });
 
         return response.json({ id });
